@@ -8,11 +8,13 @@ Este starter kit usa un conjunto pequeño y reutilizable de labels que funciona 
 - `story` - parte del trabajo visible para el usuario
 - `task` - tarea interna de implementación
 - `bug` - algo está roto
+- `regression` - algo que antes funcionaba dejó de funcionar
 - `enhancement` - capacidad nueva o mejora
 - `refactor` - cambio interno sin cambio esperado de comportamiento
 - `docs` - solo documentación
 - `test` - cobertura de pruebas o trabajo de harness
 - `ci` - cambios de integración continua y automatización
+- `qa` - trabajo o seguimiento de QA
 
 ## Triage
 
@@ -29,6 +31,7 @@ Este starter kit usa un conjunto pequeño y reutilizable de labels que funciona 
 - `security` - cambio sensible de seguridad o vulnerabilidad
 - `research` - requiere investigación antes de implementar
 - `design` - exploración UX o visual
+- `needs-approval` - requiere aprobación de una persona responsable
 
 ## Política de releases
 

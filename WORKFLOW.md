@@ -21,3 +21,11 @@ Usa este flujo para proyectos serios:
 ## Regla práctica
 
 - Si un cambio es demasiado grande para describirse en un solo PR, también es demasiado grande para una sola rama.
+
+## QA
+
+- QA valida el comportamiento contra la story, el epic o el criterio de aceptación.
+- Si encuentra una regresión, registra un issue de `regression` y enlaza la versión anterior y la actual.
+- Si necesita formalizar la validación, crea un `qa test case`.
+- El estado `blocked` se usa cuando falta una decisión, acceso, dependencia o respuesta de otra persona.
+- La discusión rápida puede pasar por chat, pero la trazabilidad oficial vive en el issue o PR.

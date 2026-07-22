@@ -1,0 +1,54 @@
+name: Regression report
+description: Reporta una regresión en algo que antes funcionaba.
+labels: ["bug", "needs-triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumen
+      description: Describe qué cambió y qué dejó de funcionar.
+    validations:
+      required: true
+  - type: input
+    id: previous_version
+    attributes:
+      label: Versión anterior que funcionaba
+      description: Commit, tag, release o build donde sí operaba.
+    validations:
+      required: true
+  - type: input
+    id: current_version
+    attributes:
+      label: Versión actual donde falla
+      description: Commit, tag, release o build donde se reproduce la falla.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos para reproducir
+      description: Pasos mínimos para ver la regresión.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamiento esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamiento actual
+    validations:
+      required: true
+  - type: textarea
+    id: suspected_change
+    attributes:
+      label: Cambio sospechoso
+      description: PR, commit, release o módulo que probablemente introdujo la regresión.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia
+      description: Capturas, videos, logs, request ids o cualquier prueba útil.

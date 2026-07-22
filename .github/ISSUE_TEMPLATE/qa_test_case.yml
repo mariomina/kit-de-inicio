@@ -1,0 +1,57 @@
+name: QA test case
+description: Registra un caso de prueba formal de QA.
+labels: ["test", "needs-triage"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objetivo
+      description: ¿Qué valida este caso de prueba?
+    validations:
+      required: true
+  - type: textarea
+    id: preconditions
+    attributes:
+      label: Precondiciones
+      description: Estado previo, datos o permisos necesarios.
+    validations:
+      required: true
+  - type: textarea
+    id: data
+    attributes:
+      label: Datos de prueba
+      description: Valores concretos, cuentas, entornos o fixtures.
+  - type: textarea
+    id: steps
+    attributes:
+      label: Pasos
+      description: Secuencia exacta para ejecutar la prueba.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado real
+      description: Completar cuando se ejecute la prueba.
+  - type: dropdown
+    id: status
+    attributes:
+      label: Estado
+      options:
+        - Pendiente
+        - Pass
+        - Fail
+        - Bloqueado
+    validations:
+      required: true
+  - type: textarea
+    id: linked_work
+    attributes:
+      label: Trabajo relacionado
+      description: Issue, story, epic o PR vinculado.
