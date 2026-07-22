@@ -1,0 +1,25 @@
+name: Task
+description: Track internal implementation work.
+labels: ["task", "needs-triage"]
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What result should this task produce?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why does this task exist?
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: What must be true before this task is closed?
+    validations:
+      required: true

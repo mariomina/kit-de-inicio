@@ -8,6 +8,7 @@ This starter kit uses a small, reusable label set that works across most serious
 - `story` - user-facing slice of work
 - `task` - internal implementation task
 - `bug` - something is broken
+- `enhancement` - net-new capability or improvement
 - `refactor` - internal change without expected behavior change
 - `docs` - documentation only
 - `test` - test coverage or test harness work
@@ -20,6 +21,9 @@ This starter kit uses a small, reusable label set that works across most serious
 - `priority: high` - urgent or strategically important
 - `priority: medium` - normal priority
 - `priority: low` - can wait without risk
+- `needs-review` - ready for review
+- `ready` - ready to start
+- `blocked` - work cannot proceed yet
 
 ## Special cases
 
@@ -32,4 +36,4 @@ This starter kit uses a small, reusable label set that works across most serious
 - `v0.1.0` is the first usable release tag
 - every user-visible release should update `CHANGELOG.md`
 - tags should follow Semantic Versioning
-
+- keep release work labeled `release`

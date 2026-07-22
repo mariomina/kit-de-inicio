@@ -1,12 +1,19 @@
 name: Bug report
 description: Report a bug in the project.
-labels: ["bug"]
+labels: ["bug", "needs-triage"]
 body:
   - type: textarea
     id: description
     attributes:
       label: What happened?
       description: Describe the bug clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who is affected and how bad is it?
     validations:
       required: true
   - type: textarea
@@ -22,4 +29,8 @@ body:
       label: Expected behavior
     validations:
       required: true
-
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, OS, app version, or relevant runtime details.

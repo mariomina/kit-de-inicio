@@ -1,0 +1,25 @@
+name: Story
+description: Track a user-facing slice of value.
+labels: ["story", "needs-triage"]
+body:
+  - type: textarea
+    id: user
+    attributes:
+      label: User goal
+      description: What does the user need to accomplish?
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Value
+      description: Why does this matter?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Define the expected behavior clearly.
+    validations:
+      required: true

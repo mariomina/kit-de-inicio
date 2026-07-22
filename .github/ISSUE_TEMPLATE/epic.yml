@@ -1,0 +1,25 @@
+name: Epic
+description: Track a larger body of work that spans multiple stories.
+labels: ["epic", "needs-triage"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What business outcome should this epic achieve?
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included and what is not?
+    validations:
+      required: true
+  - type: textarea
+    id: stories
+    attributes:
+      label: Stories
+      description: List the child stories or milestones.
+    validations:
+      required: true

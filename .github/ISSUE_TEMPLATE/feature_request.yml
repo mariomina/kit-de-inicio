@@ -1,6 +1,6 @@
 name: Feature request
 description: Suggest an improvement or new capability.
-labels: ["enhancement"]
+labels: ["enhancement", "needs-triage"]
 body:
   - type: textarea
     id: problem
@@ -14,4 +14,15 @@ body:
       label: Describe the solution you'd like
     validations:
       required: true
-
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other options you evaluated before landing here.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What must be true for this to count as done?
+    validations:
+      required: true
