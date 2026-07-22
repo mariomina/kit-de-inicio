@@ -11,6 +11,7 @@ This repository is a starter kit for future projects.
 - Link issues to PRs whenever possible.
 - Tag releases with semantic versions like `v0.1.0`.
 - Update `CHANGELOG.md` when you ship something user-visible.
+- Use the repo labels from `docs/labels.md` for triage and tracking.
 
 ## Suggested workflow
 
