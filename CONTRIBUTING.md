@@ -9,6 +9,8 @@ This repository is a starter kit for future projects.
 - Open a pull request for every meaningful change.
 - Keep commits small and descriptive.
 - Link issues to PRs whenever possible.
+- Tag releases with semantic versions like `v0.1.0`.
+- Update `CHANGELOG.md` when you ship something user-visible.
 
 ## Suggested workflow
 
@@ -17,4 +19,4 @@ This repository is a starter kit for future projects.
 3. Implement the smallest useful change.
 4. Open a PR using the template.
 5. Verify before merging.
-
+6. Cut a release tag when the change is ready.

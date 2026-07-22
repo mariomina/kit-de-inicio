@@ -7,6 +7,8 @@ Plantilla base para arrancar proyectos con un flujo profesional desde el día 1.
 - `README.md`
 - `CONTRIBUTING.md`
 - `LICENSE`
+- `CHANGELOG.md`
+- `docs/versioning.md`
 - `.gitignore`
 - `.editorconfig`
 - `.github/pull_request_template.md`
@@ -17,4 +19,4 @@ Plantilla base para arrancar proyectos con un flujo profesional desde el día 1.
 1. Crea un proyecto nuevo desde esta plantilla.
 2. Ajusta el contenido al contexto del proyecto.
 3. Abre issues y PRs con trazabilidad desde el inicio.
-
+4. Versiona con `main` + tags de release + changelog.
