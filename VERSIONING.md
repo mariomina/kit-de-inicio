@@ -1,28 +1,28 @@
-# Versioning
+# Versionado
 
-This starter kit uses semantic versioning for releases:
+Este starter kit usa versionado semántico para los releases:
 
-- `v0.1.0` for the first usable release
-- `v0.1.1`, `v0.1.2` for small fixes
-- `v0.2.0` for backward-compatible additions
-- `v1.0.0` when the kit is stable enough for repeated use
+- `v0.1.0` para el primer release usable
+- `v0.1.1`, `v0.1.2` para correcciones pequeñas
+- `v0.2.0` para mejoras compatibles hacia atrás
+- `v1.0.0` cuando el kit ya sea estable para uso repetido
 
-Recommended release flow:
+Flujo recomendado de release:
 
-1. Merge changes into `main`.
-2. Update `CHANGELOG.md`.
-3. Create a git tag like `v0.1.0`.
-4. Optionally publish a GitHub Release.
+1. Haz merge de los cambios a `main`.
+2. Actualiza `CHANGELOG.md`.
+3. Crea un tag de git como `v0.1.0`.
+4. Opcionalmente publica un GitHub Release.
 
-## Release rules
+## Reglas de release
 
-- Every shipped change should have a tag.
-- Use release branches only when coordination or stabilization needs it.
-- Keep prerelease tags explicit when you need them, for example `v1.2.0-rc.1`.
-- Do not cut a release from an unreviewed branch.
+- Todo cambio publicado debe tener un tag.
+- Usa ramas de release solo cuando haga falta coordinación o estabilización.
+- Mantén explícitos los tags de prerelease cuando los necesites, por ejemplo `v1.2.0-rc.1`.
+- No cortes un release desde una rama no revisada.
 
-## Changelog rule
+## Regla del changelog
 
-- User-visible changes go into `CHANGELOG.md`.
-- Internal-only cleanup can stay unlogged if it does not affect users.
-- Release notes should summarize impact, not just list file names.
+- Los cambios visibles para usuarios van en `CHANGELOG.md`.
+- La limpieza interna puede quedarse fuera si no afecta a usuarios.
+- Las notas de release deben resumir impacto, no solo listar nombres de archivos.

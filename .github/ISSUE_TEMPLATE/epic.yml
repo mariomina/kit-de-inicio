@@ -1,25 +1,25 @@
 name: Epic
-description: Track a larger body of work that spans multiple stories.
+description: Da seguimiento a un bloque grande de trabajo que abarca varias stories.
 labels: ["epic", "needs-triage"]
 body:
   - type: textarea
     id: objective
     attributes:
-      label: Objective
-      description: What business outcome should this epic achieve?
+      label: Objetivo
+      description: ¿Qué resultado de negocio debe lograr este epic?
     validations:
       required: true
   - type: textarea
     id: scope
     attributes:
-      label: Scope
-      description: What is included and what is not?
+      label: Alcance
+      description: ¿Qué incluye y qué no incluye?
     validations:
       required: true
   - type: textarea
     id: stories
     attributes:
       label: Stories
-      description: List the child stories or milestones.
+      description: Lista las stories hijas o hitos.
     validations:
       required: true

@@ -1,39 +1,38 @@
-# Labels
+# Etiquetas
 
-This starter kit uses a small, reusable label set that works across most serious projects.
+Este starter kit usa un conjunto pequeño y reutilizable de labels que funciona bien en la mayoría de proyectos serios.
 
-## Core workflow
+## Flujo principal
 
-- `epic` - large body of work that spans multiple stories
-- `story` - user-facing slice of work
-- `task` - internal implementation task
-- `bug` - something is broken
-- `enhancement` - net-new capability or improvement
-- `refactor` - internal change without expected behavior change
-- `docs` - documentation only
-- `test` - test coverage or test harness work
-- `ci` - continuous integration and automation changes
+- `epic` - bloque grande de trabajo que abarca varias stories
+- `story` - parte del trabajo visible para el usuario
+- `task` - tarea interna de implementación
+- `bug` - algo está roto
+- `enhancement` - capacidad nueva o mejora
+- `refactor` - cambio interno sin cambio esperado de comportamiento
+- `docs` - solo documentación
+- `test` - cobertura de pruebas o trabajo de harness
+- `ci` - cambios de integración continua y automatización
 
 ## Triage
 
-- `blocked` - work cannot proceed yet
-- `needs-triage` - more context is required before the work is scoped
-- `priority: high` - urgent or strategically important
-- `priority: medium` - normal priority
-- `priority: low` - can wait without risk
-- `needs-review` - ready for review
-- `ready` - ready to start
-- `blocked` - work cannot proceed yet
+- `blocked` - el trabajo no puede avanzar todavía
+- `needs-triage` - hace falta más contexto antes de definir el alcance
+- `priority: high` - urgente o estratégicamente importante
+- `priority: medium` - prioridad normal
+- `priority: low` - puede esperar sin riesgo
+- `needs-review` - listo para revisión
+- `ready` - listo para empezar
 
-## Special cases
+## Casos especiales
 
-- `security` - security-sensitive change or vulnerability
-- `research` - needs investigation before implementation
-- `design` - UX or visual exploration
+- `security` - cambio sensible de seguridad o vulnerabilidad
+- `research` - requiere investigación antes de implementar
+- `design` - exploración UX o visual
 
-## Release policy
+## Política de releases
 
-- `v0.1.0` is the first usable release tag
-- every user-visible release should update `CHANGELOG.md`
-- tags should follow Semantic Versioning
-- keep release work labeled `release`
+- `v0.1.0` es el primer tag usable
+- cada release visible para usuarios debe actualizar `CHANGELOG.md`
+- los tags deben seguir versionado semántico
+- el trabajo de release debe ir etiquetado como `release`

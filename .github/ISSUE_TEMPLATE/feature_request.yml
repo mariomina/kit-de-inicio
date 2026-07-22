@@ -1,28 +1,28 @@
 name: Feature request
-description: Suggest an improvement or new capability.
+description: Sugiere una mejora o nueva capacidad.
 labels: ["enhancement", "needs-triage"]
 body:
   - type: textarea
     id: problem
     attributes:
-      label: What problem are you trying to solve?
+      label: ¿Qué problema quieres resolver?
     validations:
       required: true
   - type: textarea
     id: solution
     attributes:
-      label: Describe the solution you'd like
+      label: Describe la solución que te gustaría
     validations:
       required: true
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives considered
-      description: Other options you evaluated before landing here.
+      label: Alternativas consideradas
+      description: Otras opciones que evaluaste antes de llegar aquí.
   - type: textarea
     id: acceptance
     attributes:
-      label: Acceptance criteria
-      description: What must be true for this to count as done?
+      label: Criterios de aceptación
+      description: ¿Qué debe ser cierto para considerar esto terminado?
     validations:
       required: true

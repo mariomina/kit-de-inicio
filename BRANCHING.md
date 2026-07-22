@@ -1,26 +1,26 @@
-# Branching
+# Ramas
 
-Use a simple branch model that scales without creating process noise.
+Usa un modelo de ramas simple que escale sin meter ruido de proceso.
 
-## Branch types
+## Tipos de rama
 
-- `main` - always releasable
-- `feature/*` - new user-facing capability
-- `fix/*` - bug fix
-- `chore/*` - maintenance work
-- `refactor/*` - internal change with no intended behavior change
-- `release/*` - stabilization or release prep when coordination needs it
+- `main` - siempre lista para release
+- `feature/*` - nueva capacidad visible para el usuario
+- `fix/*` - corrección de bug
+- `chore/*` - trabajo de mantenimiento
+- `refactor/*` - cambio interno sin cambio de comportamiento intencional
+- `release/*` - estabilización o preparación de release cuando haga falta coordinación
 
-## Rules
+## Reglas
 
-- Branch from `main`.
-- Keep branches short-lived.
-- One branch should map to one intent.
-- Merge back through pull requests only.
-- Delete branches after merge unless there is a concrete reason to keep them.
+- Crea las ramas desde `main`.
+- Mantén las ramas de vida corta.
+- Una rama debe corresponder a una sola intención.
+- Haz merge solo mediante pull request.
+- Elimina las ramas después del merge salvo que haya una razón concreta para conservarlas.
 
-## Naming
+## Nomenclatura
 
-- Use lowercase names with hyphens.
-- Prefer `feature/add-login-flow` over vague names like `my-branch`.
-- Include the work item when it helps traceability.
+- Usa nombres en minúsculas con guiones.
+- Prefiere `feature/agregar-flujo-login` antes que nombres vagos como `mi-rama`.
+- Incluye el ítem de trabajo cuando ayude a la trazabilidad.

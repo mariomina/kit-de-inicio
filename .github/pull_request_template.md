@@ -1,10 +1,10 @@
 ## Why
 
-Describe the business or technical reason for this change.
+Describe el motivo de negocio o técnico de este cambio.
 
 ## What changed
 
-Describe the user-visible result and the main implementation points.
+Describe el resultado visible para el usuario y los puntos principales de implementación.
 
 ## Linked work
 
@@ -14,16 +14,16 @@ Describe the user-visible result and the main implementation points.
 
 ## Validation
 
-- [ ] Verified locally
-- [ ] Updated docs if needed
-- [ ] Added or updated tests when relevant
-- [ ] Linked related issue, story, or epic
-- [ ] Updated `CHANGELOG.md` if user-visible
+- [ ] Verificado localmente
+- [ ] Docs actualizados si hacía falta
+- [ ] Se añadieron o actualizaron pruebas cuando aplicaba
+- [ ] Se vinculó el issue, story o epic relacionado
+- [ ] Se actualizó `CHANGELOG.md` si fue visible para usuarios
 
 ## Risk / rollback
 
-- Risk:
-- Rollback plan:
+- Riesgo:
+- Plan de rollback:
 
 ## Surface area
 
@@ -31,5 +31,5 @@ Describe the user-visible result and the main implementation points.
 - [ ] Labels
 - [ ] Issues / templates
 - [ ] Branching / releases
-- [ ] Security
+- [ ] Seguridad
 - [ ] CI

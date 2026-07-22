@@ -1,23 +1,23 @@
 # Workflow
 
-Use this flow for serious projects:
+Usa este flujo para proyectos serios:
 
-1. Open an `epic` when the work spans multiple deliverables.
-2. Break the epic into `story` issues for user-facing slices.
-3. Split implementation details into `task` issues when needed.
-4. Use `bug`, `refactor`, `docs`, `test`, `ci`, `security`, `research`, and `design` labels to classify the work.
-5. Open one PR per branch and keep it tied to a single issue or story.
-6. Verify locally before asking for review.
-7. Merge to `main`.
-8. Tag the release and update `CHANGELOG.md`.
+1. Abre un `epic` cuando el trabajo abarque varios entregables.
+2. Divide el epic en issues de `story` para las partes visibles para el usuario.
+3. Separa los detalles de implementación en issues de `task` cuando haga falta.
+4. Usa los labels `bug`, `refactor`, `docs`, `test`, `ci`, `security`, `research` y `design` para clasificar el trabajo.
+5. Abre un PR por rama y mantenlo ligado a un único issue o story.
+6. Verifica localmente antes de pedir revisión.
+7. Haz merge a `main`.
+8. Etiqueta el release y actualiza `CHANGELOG.md`.
 
-## Traceability
+## Trazabilidad
 
-- Epic explains why the work exists.
-- Story explains what the user gets.
-- Task explains what must be built.
-- PR explains what changed and how it was validated.
+- El epic explica por qué existe el trabajo.
+- La story explica qué recibe el usuario.
+- La task explica qué se debe construir.
+- El PR explica qué cambió y cómo se validó.
 
-## Practical rule
+## Regla práctica
 
-- If a change is too large to describe in one PR, it is too large for one branch.
+- Si un cambio es demasiado grande para describirse en un solo PR, también es demasiado grande para una sola rama.

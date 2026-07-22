@@ -2,7 +2,7 @@
 
 Plantilla base para arrancar proyectos con disciplina de equipo desde el día 1.
 
-## Qué trae
+## Qué incluye
 
 - `README.md`
 - `CONTRIBUTING.md`
@@ -28,7 +28,7 @@ Plantilla base para arrancar proyectos con disciplina de equipo desde el día 1.
 
 ## Convenciones base
 
-- Branching: `main`, `feature/*`, `fix/*`, `chore/*`, `refactor/*`, `release/*`
-- Tracking: GitHub labels + issue forms + pull request template
-- Releases: Semantic Versioning con tags como `v0.1.0`
-- Quality gate: issue link, validation, review, changelog, release note when needed
+- Ramas: `main`, `feature/*`, `fix/*`, `chore/*`, `refactor/*`, `release/*`
+- Seguimiento: labels de GitHub + formularios de issue + template de pull request
+- Releases: versionado semántico con tags como `v0.1.0`
+- Control de calidad: issue vinculado, validación, revisión, changelog y nota de release cuando aplique

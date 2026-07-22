@@ -1,36 +1,36 @@
 name: Bug report
-description: Report a bug in the project.
+description: Reporta un bug en el proyecto.
 labels: ["bug", "needs-triage"]
 body:
   - type: textarea
     id: description
     attributes:
-      label: What happened?
-      description: Describe the bug clearly.
+      label: ¿Qué pasó?
+      description: Describe el bug con claridad.
     validations:
       required: true
   - type: textarea
     id: impact
     attributes:
-      label: Impact
-      description: Who is affected and how bad is it?
+      label: Impacto
+      description: ¿A quién afecta y qué tan grave es?
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
-      description: Minimal steps to reproduce the issue.
+      label: Pasos para reproducir
+      description: Pasos mínimos para reproducir el problema.
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: Expected behavior
+      label: Comportamiento esperado
     validations:
       required: true
   - type: input
     id: environment
     attributes:
-      label: Environment
-      description: Browser, OS, app version, or relevant runtime details.
+      label: Entorno
+      description: Navegador, sistema operativo, versión de la app o detalles relevantes del runtime.

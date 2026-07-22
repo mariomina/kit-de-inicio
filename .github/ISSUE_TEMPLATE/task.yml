@@ -1,25 +1,25 @@
 name: Task
-description: Track internal implementation work.
+description: Da seguimiento a trabajo interno de implementación.
 labels: ["task", "needs-triage"]
 body:
   - type: textarea
     id: outcome
     attributes:
-      label: Outcome
-      description: What result should this task produce?
+      label: Resultado
+      description: ¿Qué resultado debe producir esta tarea?
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
-      label: Context
-      description: Why does this task exist?
+      label: Contexto
+      description: ¿Por qué existe esta tarea?
     validations:
       required: true
   - type: textarea
     id: done
     attributes:
-      label: Definition of done
-      description: What must be true before this task is closed?
+      label: Definición de terminado
+      description: ¿Qué debe ser cierto para cerrar esta tarea?
     validations:
       required: true

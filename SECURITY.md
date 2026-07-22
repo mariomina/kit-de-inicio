@@ -1,22 +1,22 @@
-# Security
+# Seguridad
 
-## Reporting a security issue
+## Cómo reportar un problema de seguridad
 
-If you find a security problem, do not open a public issue.
+Si encuentras un problema de seguridad, no abras un issue público.
 
-Report it privately through the project's preferred security contact or the platform's private disclosure flow.
+Repórtalo de forma privada usando el contacto de seguridad del proyecto o el flujo privado de divulgación de la plataforma.
 
-## What to include
+## Qué incluir
 
-- A short summary of the issue
-- The affected area
-- Steps to reproduce, if safe to share
-- Impact and severity
-- Any suggested mitigation
+- Un resumen corto del problema
+- El área afectada
+- Pasos para reproducirlo, si es seguro compartirlos
+- Impacto y severidad
+- Cualquier mitigación sugerida
 
-## Response expectation
+## Qué esperar
 
-- Acknowledge the report.
-- Triage severity.
-- Patch in a private branch if needed.
-- Publish a fix with a clear changelog entry and release tag.
+- Confirmación de recepción.
+- Triage de severidad.
+- Corrección en una rama privada si hace falta.
+- Publicación del fix con una entrada clara en el changelog y un tag de release.

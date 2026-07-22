@@ -1,25 +1,25 @@
-# Contributing
+# Contribuir
 
-This repository is a starter kit for future projects.
+Este repositorio es un starter kit para futuros proyectos.
 
-## Rules
+## Reglas
 
-- Use `main` as the default branch.
-- Work on short-lived branches like `feature/*`, `fix/*`, `chore/*`, `refactor/*`, and `release/*`.
-- Open a pull request for every meaningful change.
-- Keep commits small, descriptive, and scoped to one intent.
-- Link the issue, story, or epic in every PR when one exists.
-- Update `CHANGELOG.md` when you ship something user-visible.
-- Tag releases with semantic versions like `v0.1.0`.
-- Use the repo labels from `LABELS.md` for triage and tracking.
-- Keep the repository top-level clean; add new conventions as root docs before introducing new folders.
+- Usa `main` como rama por defecto.
+- Trabaja en ramas de vida corta como `feature/*`, `fix/*`, `chore/*`, `refactor/*` y `release/*`.
+- Abre un pull request por cada cambio significativo.
+- Mantén los commits pequeños, descriptivos y enfocados en una sola intención.
+- Vincula el issue, story o epic en cada PR cuando exista.
+- Actualiza `CHANGELOG.md` cuando publiques algo visible para usuarios.
+- Etiqueta los releases con versiones semánticas como `v0.1.0`.
+- Usa los labels del repositorio desde `LABELS.md` para triage y seguimiento.
+- Mantén la raíz del repositorio limpia; agrega nuevas convenciones como docs de raíz antes de crear carpetas nuevas.
 
-## Suggested workflow
+## Flujo sugerido
 
-1. Create or pick an epic, story, or task.
-2. Create a branch from `main`.
-3. Implement the smallest useful change.
-4. Open a PR using the template.
-5. Verify locally and in CI.
-6. Merge to `main`.
-7. Cut a release tag when the change is ready.
+1. Crea o elige un epic, story o task.
+2. Crea una rama desde `main`.
+3. Implementa el cambio más pequeño que aporte valor.
+4. Abre un PR usando la plantilla.
+5. Verifica localmente y en CI.
+6. Haz merge a `main`.
+7. Crea un tag de release cuando el cambio esté listo.
