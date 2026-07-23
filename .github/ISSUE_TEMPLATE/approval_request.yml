@@ -1,0 +1,52 @@
+name: Approval request
+description: Solicita una aprobación formal de TI, gerencia, arquitectura o seguridad.
+labels: ["needs-approval", "blocked", "needs-triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumen
+      description: Explica qué necesita aprobación.
+    validations:
+      required: true
+  - type: input
+    id: approver
+    attributes:
+      label: Aprobador requerido
+      description: Persona, rol o área que debe decidir.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      description: Explica el problema, bloqueo o cambio propuesto.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto
+      description: Qué pasa si se aprueba o si no se aprueba.
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Opciones consideradas
+      description: Alternativas evaluadas antes de pedir la decisión.
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recomendación
+      description: Qué opción recomiendas y por qué.
+  - type: input
+    id: deadline
+    attributes:
+      label: Fecha límite
+      description: Si hay una fecha o ventana de decisión.
+  - type: textarea
+    id: linked_work
+    attributes:
+      label: Trabajo relacionado
+      description: Issue, story, epic, PR o bug vinculado.

@@ -34,3 +34,4 @@ Plantilla base para arrancar proyectos con disciplina de equipo desde el día 1.
 - Releases: versionado semántico con tags como `v0.1.0`
 - Control de calidad: issue vinculado, validación, revisión, changelog y nota de release cuando aplique
 - QA: bug, regresión y casos de prueba formales
+- Aprobaciones: solicitudes formales para decisiones de TI, gerencia o seguridad

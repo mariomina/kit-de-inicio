@@ -29,3 +29,11 @@ Usa este flujo para proyectos serios:
 - Si necesita formalizar la validación, crea un `qa test case`.
 - El estado `blocked` se usa cuando falta una decisión, acceso, dependencia o respuesta de otra persona.
 - La discusión rápida puede pasar por chat, pero la trazabilidad oficial vive en el issue o PR.
+
+## Aprobaciones
+
+- Usa `approval request` cuando el trabajo necesite decisión de TI, gerencia, arquitectura o seguridad.
+- Marca el trabajo como `blocked` mientras esperas la decisión.
+- Incluye contexto, impacto, opciones consideradas y recomendación.
+- Nombra un solo aprobador principal por solicitud.
+- La respuesta debe quedar escrita en el mismo issue para mantener trazabilidad.
