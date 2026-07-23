@@ -6,6 +6,34 @@ Plantilla base para arrancar proyectos con disciplina de equipo desde el día 1.
 
 Esta plantilla evita empezar proyectos “a mano” sin estructura. Te da desde el inicio una base clara para identidad del repositorio, documentación por rol, documentación de proceso, control de cambios, revisión de seguridad y una forma consistente de escalar el proyecto como si ya fuera serio.
 
+## Para quién es
+
+Esta plantilla es para personas y equipos que quieren arrancar un proyecto con criterio profesional desde el primer día:
+
+- Desarrollo individual con intención de crecer a equipo.
+- Equipos pequeños que quieren orden sin burocracia innecesaria.
+- Proyectos personales que quieren operar como producto serio.
+- Equipos técnicos, QA, producto o liderazgo que necesitan un punto de partida común.
+
+## Cuándo no usarla
+
+No la uses si buscas algo improvisado o desechable. Tampoco si:
+
+- No quieres mantener documentación mínima.
+- No vas a usar ramas, PRs, issues o tags.
+- Prefieres una estructura vacía sin reglas ni convenciones.
+- Tu proyecto ya tiene un estándar corporativo distinto y no quieres adaptarlo.
+
+## Qué entrega desde el día 1
+
+La plantilla deja listo un arranque base con:
+
+- Identidad y contexto del proyecto en la raíz.
+- Guías por rol para usar la plantilla según la perspectiva de cada persona.
+- Documentación de proceso para ramas, QA, labels, versionado y protección.
+- Plantillas de GitHub para PRs e issues.
+- Archivos de seguridad, contribución y control de cambios.
+
 ## Qué incluye
 
 - `README.md`
