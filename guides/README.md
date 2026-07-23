@@ -23,6 +23,7 @@ Este índice agrupa las guías por rol para usar la plantilla según la responsa
 ## Qué debe configurar cada proyecto
 
 - [`README.md`](../README.md) con el contexto del producto
+- [`docs/README.md`](../docs/README.md) para entrar a la documentación operativa
 - [`docs/process/LABELS.md`](../docs/process/LABELS.md) con los labels que sí vas a usar
 - [`docs/process/BRANCHING.md`](../docs/process/BRANCHING.md) con la política de ramas
 - [`docs/process/WORKFLOW.md`](../docs/process/WORKFLOW.md) con el flujo de trabajo

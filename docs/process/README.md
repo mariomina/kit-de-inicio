@@ -23,5 +23,6 @@ Este índice agrupa las reglas y documentos operativos de la plantilla.
 ## Relación con otros archivos
 
 - [`README.md`](../README.md) enlaza este índice para la visión general.
+- [`docs/README.md`](../README.md) enlaza la documentación operativa desde la raíz de `docs/`.
 - [`guides/README.md`](../guides/README.md) enlaza a las guías por rol.
 - [`SECURITY.md`](../SECURITY.md) sigue en la raíz porque GitHub lo reconoce como política de seguridad.
