@@ -1,0 +1,47 @@
+name: Security review request
+description: Solicita revisión formal de seguridad para un cambio, hallazgo o excepción.
+labels: ["security", "needs-approval", "blocked", "needs-triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumen
+      description: Explica qué necesita revisión de seguridad.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      description: Describe el cambio, hallazgo o excepción a revisar.
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Riesgo
+      description: Qué podría salir mal si esto se aprueba o se implementa.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidencia
+      description: Logs, capturas, hallazgos, dependencias o cualquier prueba útil.
+  - type: textarea
+    id: mitigation
+    attributes:
+      label: Mitigación propuesta
+      description: Cómo reducirías el riesgo o qué alternativa propones.
+  - type: input
+    id: approver
+    attributes:
+      label: Revisor de seguridad
+      description: Persona, equipo o rol que debe responder.
+    validations:
+      required: true
+  - type: textarea
+    id: linked_work
+    attributes:
+      label: Trabajo relacionado
+      description: Issue, story, epic, PR o bug vinculado.

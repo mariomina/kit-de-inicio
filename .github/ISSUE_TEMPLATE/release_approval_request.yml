@@ -1,0 +1,58 @@
+name: Release approval request
+description: Solicita aprobación para cortar un release.
+labels: ["release", "needs-approval", "blocked", "needs-triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumen
+      description: Explica qué release quieres aprobar.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión propuesta
+      description: Tag o versión a publicar, por ejemplo v0.1.0.
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Alcance
+      description: Qué incluye el release y qué queda fuera.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validación
+      description: Qué pruebas, checks o evidencias ya están completas.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Riesgos
+      description: Riesgos conocidos, impacto y plan de contención.
+    validations:
+      required: true
+  - type: textarea
+    id: rollback
+    attributes:
+      label: Rollback
+      description: Cómo revertirías si el release falla.
+    validations:
+      required: true
+  - type: input
+    id: approver
+    attributes:
+      label: Aprobador del release
+      description: Persona o rol que debe autorizar la publicación.
+    validations:
+      required: true
+  - type: textarea
+    id: linked_work
+    attributes:
+      label: Trabajo relacionado
+      description: Issue, story, epic, PR o bug vinculado.

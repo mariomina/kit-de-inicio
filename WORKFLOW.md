@@ -37,3 +37,10 @@ Usa este flujo para proyectos serios:
 - Incluye contexto, impacto, opciones consideradas y recomendación.
 - Nombra un solo aprobador principal por solicitud.
 - La respuesta debe quedar escrita en el mismo issue para mantener trazabilidad.
+
+## Decisiones especializadas
+
+- Usa `security review request` para hallazgos, excepciones o cambios con riesgo de seguridad.
+- Usa `architecture decision request` cuando el sistema necesite una decisión de diseño, componente o patrón.
+- Usa `release approval request` cuando el equipo ya esté listo para publicar y falte autorización.
+- Mantén un solo issue por decisión para que el historial quede limpio.

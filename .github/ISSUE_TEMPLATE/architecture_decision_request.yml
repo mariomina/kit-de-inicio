@@ -1,0 +1,56 @@
+name: Architecture decision request
+description: Solicita una decisión formal de arquitectura.
+labels: ["research", "needs-approval", "blocked", "needs-triage"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Resumen
+      description: Explica qué decisión de arquitectura se necesita.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema
+      description: Qué problema técnico o de diseño estás tratando de resolver.
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Opciones
+      description: Alternativas consideradas con pros y contras.
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recomendación
+      description: Qué opción recomiendas y por qué.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto
+      description: Qué cambia en plazo, costo, complejidad, riesgo o mantenimiento.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Restricciones
+      description: Requisitos no negociables, dependencias o límites del sistema.
+  - type: input
+    id: approver
+    attributes:
+      label: Arquitecto o revisor
+      description: Persona o rol que debe tomar la decisión.
+    validations:
+      required: true
+  - type: textarea
+    id: linked_work
+    attributes:
+      label: Trabajo relacionado
+      description: Issue, story, epic, PR o bug vinculado.
