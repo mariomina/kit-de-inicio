@@ -2,6 +2,10 @@
 
 Plantilla base para arrancar proyectos con disciplina de equipo desde el día 1.
 
+## Problema que resuelve
+
+Esta plantilla evita empezar proyectos “a mano” sin estructura. Te da desde el inicio una base clara para identidad del repositorio, documentación por rol, documentación de proceso, control de cambios, revisión de seguridad y una forma consistente de escalar el proyecto como si ya fuera serio.
+
 ## Qué incluye
 
 - `README.md`
