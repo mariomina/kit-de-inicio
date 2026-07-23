@@ -13,6 +13,7 @@ Plantilla base para arrancar proyectos con disciplina de equipo desde el día 1.
 - `LABELS.md`
 - `BRANCH_PROTECTION.md`
 - `SECURITY.md`
+- `USAGE.md`
 - `CHANGELOG.md`
 - `LICENSE`
 - `.gitignore`
