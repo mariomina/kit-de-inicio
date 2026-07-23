@@ -1,0 +1,16 @@
+* @mariomina
+
+# Archivos de gobernanza del starter kit
+/README.md @mariomina
+/CONTRIBUTING.md @mariomina
+/BRANCHING.md @mariomina
+/WORKFLOW.md @mariomina
+/QA.md @mariomina
+/VERSIONING.md @mariomina
+/LABELS.md @mariomina
+/SECURITY.md @mariomina
+/BRANCH_PROTECTION.md @mariomina
+/CHANGELOG.md @mariomina
+
+# Reglas y plantillas de GitHub
+/.github/ @mariomina

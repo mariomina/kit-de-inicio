@@ -11,6 +11,7 @@ Plantilla base para arrancar proyectos con disciplina de equipo desde el día 1.
 - `QA.md`
 - `VERSIONING.md`
 - `LABELS.md`
+- `BRANCH_PROTECTION.md`
 - `SECURITY.md`
 - `CHANGELOG.md`
 - `LICENSE`
@@ -36,3 +37,4 @@ Plantilla base para arrancar proyectos con disciplina de equipo desde el día 1.
 - QA: bug, regresión y casos de prueba formales
 - Aprobaciones: solicitudes formales para decisiones de TI, gerencia o seguridad
 - Decisiones especializadas: seguridad, arquitectura y release
+- Protección de rama: `main` con PR obligatorio y revisión de `CODEOWNERS`

@@ -44,3 +44,10 @@ Usa este flujo para proyectos serios:
 - Usa `architecture decision request` cuando el sistema necesite una decisión de diseño, componente o patrón.
 - Usa `release approval request` cuando el equipo ya esté listo para publicar y falte autorización.
 - Mantén un solo issue por decisión para que el historial quede limpio.
+
+## Protección de rama
+
+- Trata `main` como una rama protegida.
+- Haz todo cambio mediante PR.
+- Pide revisión de `CODEOWNERS` en archivos de gobernanza y zonas sensibles.
+- No permitas push directo ni force push sobre `main`.
