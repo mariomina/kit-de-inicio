@@ -11,8 +11,8 @@ Este repositorio es un starter kit para futuros proyectos.
 - Vincula el issue, story o epic en cada PR cuando exista.
 - Actualiza `CHANGELOG.md` cuando publiques algo visible para usuarios.
 - Etiqueta los releases con versiones semánticas como `v0.1.0`.
-- Usa los labels del repositorio desde `LABELS.md` para triage y seguimiento.
-- Mantén la raíz del repositorio limpia; agrega nuevas convenciones como docs de raíz antes de crear carpetas nuevas.
+- Usa los labels del repositorio desde `docs/process/LABELS.md` para triage y seguimiento.
+- Mantén la raíz del repositorio limpia; agrupa documentación por rol o por proceso antes de agregar archivos sueltos.
 
 ## Flujo sugerido
 
