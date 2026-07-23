@@ -14,6 +14,13 @@ Plantilla base para arrancar proyectos con disciplina de equipo desde el día 1.
 - `BRANCH_PROTECTION.md`
 - `SECURITY.md`
 - `USAGE.md`
+- `DEVELOPER_GUIDE.md`
+- `QA_GUIDE.md`
+- `TI_MANAGER_GUIDE.md`
+- `PRODUCT_GUIDE.md`
+- `ARCHITECT_GUIDE.md`
+- `RELEASE_GUIDE.md`
+- `SECURITY_REVIEW_GUIDE.md`
 - `CHANGELOG.md`
 - `LICENSE`
 - `.gitignore`
