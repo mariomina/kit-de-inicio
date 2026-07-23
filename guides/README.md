@@ -4,13 +4,13 @@ Este índice agrupa las guías por rol para usar la plantilla según la responsa
 
 ## Cómo usar esta guía
 
-- Si vas a construir software, ve a [DEVELOPER_GUIDE.md](./DEVELOPER_GUIDE.md).
-- Si vas a validar calidad, ve a [QA_GUIDE.md](./QA_GUIDE.md).
-- Si vas a decidir alcance o prioridad, ve a [PRODUCT_GUIDE.md](./PRODUCT_GUIDE.md).
-- Si vas a aprobar cambios o destrabar trabajo, ve a [TI_MANAGER_GUIDE.md](./TI_MANAGER_GUIDE.md).
-- Si vas a tomar decisiones técnicas de diseño, ve a [ARCHITECT_GUIDE.md](./ARCHITECT_GUIDE.md).
-- Si vas a preparar una publicación, ve a [RELEASE_GUIDE.md](./RELEASE_GUIDE.md).
-- Si vas a revisar riesgos o excepciones de seguridad, ve a [SECURITY_REVIEW_GUIDE.md](./SECURITY_REVIEW_GUIDE.md).
+- Si vas a construir software, ve a [developer.md](./developer.md).
+- Si vas a validar calidad, ve a [qa.md](./qa.md).
+- Si vas a decidir alcance o prioridad, ve a [product.md](./product.md).
+- Si vas a aprobar cambios o destrabar trabajo, ve a [ti-manager.md](./ti-manager.md).
+- Si vas a tomar decisiones técnicas de diseño, ve a [architect.md](./architect.md).
+- Si vas a preparar una publicación, ve a [release.md](./release.md).
+- Si vas a revisar riesgos o excepciones de seguridad, ve a [security-review.md](./security-review.md).
 
 ## Antes de empezar
 
@@ -24,13 +24,13 @@ Este índice agrupa las guías por rol para usar la plantilla según la responsa
 
 - [`README.md`](../README.md) con el contexto del producto
 - [`docs/README.md`](../docs/README.md) para entrar a la documentación operativa
-- [`docs/process/LABELS.md`](../docs/process/LABELS.md) con los labels que sí vas a usar
-- [`docs/process/BRANCHING.md`](../docs/process/BRANCHING.md) con la política de ramas
-- [`docs/process/WORKFLOW.md`](../docs/process/WORKFLOW.md) con el flujo de trabajo
-- [`docs/process/QA.md`](../docs/process/QA.md) con el flujo de validación
+- [`docs/process/labels.md`](../docs/process/labels.md) con los labels que sí vas a usar
+- [`docs/process/branching.md`](../docs/process/branching.md) con la política de ramas
+- [`docs/process/workflow.md`](../docs/process/workflow.md) con el flujo de trabajo
+- [`docs/process/qa.md`](../docs/process/qa.md) con el flujo de validación
 - [`SECURITY.md`](../SECURITY.md) con el canal de reporte de seguridad
 - [`.github/CODEOWNERS`](../.github/CODEOWNERS) con los responsables reales
-- [`docs/process/BRANCH_PROTECTION.md`](../docs/process/BRANCH_PROTECTION.md) con la política recomendada para `main`
+- [`docs/process/branch_protection.md`](../docs/process/branch_protection.md) con la política recomendada para `main`
 
 ## Regla práctica
 
